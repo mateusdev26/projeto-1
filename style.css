@@ -4,4 +4,10 @@ div{
     width: 90px;
     height: 90px;
     border-radius: 10%;
+    transition: 1s ease;
+}
+div:hover{
+    transition: 1s ease;
+    background-color: green;
+    border-radius: 50%;
 }
